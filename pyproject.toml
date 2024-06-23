@@ -1,7 +1,9 @@
 [tool.poetry]
 name = "titanic-ml-project"
 version = "0.1.0"
-description = "Este projeto tem como objetivo desenvolver um modelo preditivo de machine learning para identificar a probabilidade de sobrevivência de indivíduos no desastre do Titanic, com base em suas características."
+description = "Este projeto tem como objetivo desenvolver um modelo preditivo de machine learning 
+para identificar a probabilidade de sobrevivência de indivíduos no desastre do Titanic, 
+com base em suas características."
 authors = ["Espedito Ferreira Alves <Espeditoalves123@hotmail.com>"]
 readme = "README.md"
 
@@ -10,7 +12,15 @@ python = "^3.11"
 numpy = "^2.0.0"
 pandas = "^2.2.2"
 ipykernel = "^6.29.4"
+matplotlib = "^3.9.0"
+seaborn = "^0.13.2"
+plotly = "^5.22.0"
 
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+blue = "^0.9.1"
+mkdocs = "^1.6.0"
 
 [build-system]
 requires = ["poetry-core"]
