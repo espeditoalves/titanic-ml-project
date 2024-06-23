@@ -1,12 +1,15 @@
 [tool.poetry]
 name = "titanic-ml-project"
 version = "0.1.0"
-description = "Esse projeto tem a finalidade de criar um modelo machine leaning para identificar a probabilidade de uma determinada pessoa, baseada em suas caracteristicas sobrevivier a trajedia do titanic"
+description = "Este projeto tem como objetivo desenvolver um modelo preditivo de machine learning para identificar a probabilidade de sobrevivência de indivíduos no desastre do Titanic, com base em suas características."
 authors = ["Espedito Ferreira Alves <Espeditoalves123@hotmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+numpy = "^2.0.0"
+pandas = "^2.2.2"
+ipykernel = "^6.29.4"
 
 
 [build-system]
