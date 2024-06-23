@@ -1,12 +1,16 @@
 # titanic_ml_project
 
+Descrição do Projeto
+
+..
+
+
+## Project Organization
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Sem descrição
-
-## Project Organization
+Este projeto segue a organização de pastas do `**cookiecutter-data-science**`, todavia eu realizei alguns ajustes para se adequar aos meus projetos.
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
@@ -23,25 +27,31 @@ Sem descrição
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+│   |                      the creator's initials, and a short `-` delimited description, e.g.
+│   |                     `1.0-jqp-initial-data-exploration`.
+│   ├── exploration/       # Notebooks de exploração inicial dos dados
+|   |-- preprocessing      # 
+│   ├── modeling/          # Notebooks de experimentação e modelagem
+│   └── reporting/         # Notebooks usados para gerar relatórios
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for titanic_ml_project
 │                         and configuration for tools like black
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
+|-- output             #
+|   │── figures        <- Generated graphics and figures to be used in reporting
+|   |-- predictions    #
+|   ├── reports        <- Generated analysis as HTML, PDF, LaTeX, etc.
+│    
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── titanic_ml_project                <- Source code for use in this project.
+└── Name_project                <- Source code for use in this project.
     │
-    ├── __init__.py    <- Makes titanic_ml_project a Python module
+    ├── __init__.py    <- Makes Name_project a Python module
     │
     ├── data           <- Scripts to download or generate data
     │   └── make_dataset.py
